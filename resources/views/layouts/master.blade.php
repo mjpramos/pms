@@ -11,6 +11,7 @@
 </head>
 <body>
     <div class="container">
+        @include('layouts.partials.alerts')
         @yield('content')
     </div>
 </body>
